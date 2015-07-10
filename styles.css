@@ -1,5 +1,15 @@
 body {
-	padding-top: 10px;
+	font-family: 'Alike Angular';
+	font-size: 15px;
+	padding-top: 10px;	
+}
+
+html, body {
+	height: 100%;
+}
+
+#wrap {
+	min-height: 100%;
 }
 
 .container {
@@ -12,9 +22,14 @@ body {
 	border-bottom: 3px solid #de7690;
 }
 
+h2 {
+	font-family: Lobster;
+	font-size: 35px;
+}
+
 .header .nav {
 	font-size: 16px;
-	padding-top: 30px;
+	padding-top: 35px;
 }
 
 .header li a,
@@ -37,8 +52,8 @@ body {
 }
 
 .main {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 10px;
+	padding-bottom: 80px;
 }
 
 .main h2 {
@@ -52,11 +67,16 @@ body {
 }
 
 .footer {
+	position: relative;
+	margin-top: -60px;
+	height: 60px;
+	clear: both;
 	padding: 20px;
 	background-color: #de7690;
 }
 
 .footer p {
-	font-size: 14px;
+	font-size: 12px;
 	color: white;
+	padding-bottom: none;
 }
