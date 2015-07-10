@@ -1,16 +1,19 @@
 body {
 	padding-top: 10px;
-	padding-bottom: 20px;
+}
+
+.container {
+	max-width: 800px;
 }
 
 .header {
 	padding-right: 15px;
 	padding-left: 15px;
-	border-bottom: 1px solid #e5e5e5;
+	border-bottom: 3px solid #de7690;
 }
 
 .header .nav {
-	font-size: 18px;
+	font-size: 16px;
 	padding-top: 30px;
 }
 
@@ -18,7 +21,7 @@ body {
 .header li a:focus,
 .header li a:hover,
 .header li a:active {
-	color: black;
+	color: gray;
 	border: 2px solid white;
 	padding: 5px 10px;
 }
@@ -29,6 +32,31 @@ body {
 .header li.active a:active {
 	background-color: white;
 	color: black;
-	border: 2px solid #e8d34a;
+	border: 2px solid #de7690;
 	padding: 5px 10px;
+}
+
+.main {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.main h2 {
+	color: #de7690;
+}
+
+.main img {
+	border: 2px solid #de7690;
+	margin: 10px;
+	margin-top: 0px;
+}
+
+.footer {
+	padding: 20px;
+	background-color: #de7690;
+}
+
+.footer p {
+	font-size: 14px;
+	color: white;
 }
