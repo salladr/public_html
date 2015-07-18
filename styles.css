@@ -100,3 +100,15 @@ h2 small {
 	border: none;
 	margin-right: 25px;
 }
+
+#contact a {
+	color: gray;
+	font-size: 19px;
+	border: none;
+}
+
+#contact {
+	color: #e66a6a;
+	font-size: 17px;
+	font-weight: bold;
+}
