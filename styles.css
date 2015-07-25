@@ -24,7 +24,7 @@ h2 small {
 	color: gray;
 }
 
-.navbar-custom {
+.navbar-default {
 	background-color: #e66e6a;
   -webkit-box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
           box-shadow: inset 0 -2px 5px rgba(0,0,0,.1);
@@ -32,40 +32,46 @@ h2 small {
 }
 
 .navbar-header h2 {
-	font-size: 40px;
-}
-
-.navbar {
+	font-size: 45px;
 	padding-left: 60px;
-	padding-right: 60px;
 }
 
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-nav li a {
-	line-height: 45px;
-	height: 45px;
-	padding-top: 0px;
+.navbar-default .navbar-brand,
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav li a {
 	color: white;
 }
 
-.navbar-custom .navbar-nav li a {
+.navbar-default .navbar-nav li a {
 	margin-top: 30px;
 	font-size: 16px;
 	color: #f5dbda;
 }
 
-.navbar-custom .navbar-nav li a:hover,
-.navbar-custom .navbar-nav li a:focus {
+.navbar-default .navbar-nav li a:hover,
+.navbar-default .navbar-nav li a:focus {
 	color: white;
 	text-decoration: none;
 	background: none;
 }
 
-.navbar-custom .navbar-nav .active {
+.navbar-default .navbar-nav .active {
 	color: white;
 }
 
-.navbar-custom .navbar-nav .active:after {
+.navbar-default .navbar-toggle {
+	margin-top: 30px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: white;
+}
+
+.navbar-default .navbar-nav {
+	margin-right: 30px;
+}
+
+.navbar-default .navbar-nav .active:after {
 	position: absolute;
 	bottom: 0;
 	left: 50%; 
@@ -77,6 +83,17 @@ h2 small {
 	border-right: 8px solid transparent;
 	border-bottom: 8px solid;
 	border-left: 8px solid transparent;
+}
+
+@media only screen and (max-width: 767px) {
+	.navbar-header h2 {
+		font-size: 31px;
+		padding-left: 10px;
+	}
+
+	.navbar-default .navbar-nav .active:after {
+		border: 0px;
+	}
 }
 
 .main {
