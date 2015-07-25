@@ -86,8 +86,16 @@ h2 small {
 }
 
 @media only screen and (max-width: 767px) {
+	body {
+		font-size: 13px;
+	}
+
+	h2 {
+		font-size: 26px;
+	}
+
 	.navbar-header h2 {
-		font-size: 31px;
+		font-size: 28px;
 		padding-left: 10px;
 	}
 
