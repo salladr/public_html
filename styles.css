@@ -102,6 +102,25 @@ h2 small {
 	.navbar-default .navbar-nav .active:after {
 		border: 0px;
 	}
+
+	.collapsing, .in {
+		background-color: #f7f7f7;
+	}
+
+	.collapsing ul li a,
+	.in ul li a {
+		color: #7a7a7a!important;
+	}
+
+	.collapsing .active,
+	.in .active {
+		color: #000!important;
+	}
+
+	.collapsing ul li a:hover,
+	.in ul li a:hover {
+		color: #f1f1f1!important;
+	}
 }
 
 .main {
