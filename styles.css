@@ -170,6 +170,13 @@ h2 small {
 	border: none;
 }
 
+#phone {
+	color: gray;
+	font-size: 19px;
+	font-weight: lighter;
+	font: "Helvetica Neue";
+}
+
 #contact {
 	color: #e66a6a;
 	font-size: 17px;
