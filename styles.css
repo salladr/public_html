@@ -179,3 +179,12 @@ h2 small {
 	font-size: 17px;
 	font-weight: bold;
 }
+
+#projects a {
+	color: gray;
+	border: none;
+}
+
+#projects h3 {
+	color: gray;
+}
