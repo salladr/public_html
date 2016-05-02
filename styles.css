@@ -152,15 +152,6 @@ h2 small {
 	padding-bottom: none;
 }
 
-#resume {
-	border: 3px solid #e66a6a;
-	height: 800px;
-	margin-top: 20px;
-	margin-left: 25px;
-	margin-right: 25px;
-	margin-bottom: 10px;
-}
-
 #print {
 	color: gray;
 	font-size: 19px;
