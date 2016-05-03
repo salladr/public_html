@@ -152,6 +152,10 @@ h2 small {
 	padding-bottom: none;
 }
 
+#resume {
+	margin: 0px;
+}
+
 #resume img {
 	border: none;
 	margin: 0px;
